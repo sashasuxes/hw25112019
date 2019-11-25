@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<meta charset="utf-8">
+		<title> Suxpage</title>
+		<link rel="stylesheet" type="text/css" href="./styles/main.css">
+	</head>
+<body> 
+
+<button class="sux">
+press me
+</button>
+
+<button onclick="stopFunction()">
+stop
+</button>
+
+<button class="clear">
+clear
+</button>
+
+<div class="cool">
+
+</div>
+
+
+
+
+	
+	<script>
+	
+	
+	let elsux = document.querySelector('.sux');
+	elsux.addEventListener('click', function(){
+	let test = '123';
+	my=setTimeout(function() {let elcool = document.querySelector('.cool'); console.log('cool'); elcool.innerHTML = test;
+	}, 1000);
+	});
+	
+	function stopFunction() {
+	clearTimeout(my);
+}
+
+let elclear = document.querySelector('.clear');
+	elclear.addEventListener('click', function(){
+	let test2 = null;
+	setTimeout(function() {let elcool = document.querySelector('.cool'); console.log('clear'); elcool.innerHTML = test2;
+	}, 1);
+	});
+	
+
+
+	
+	
+
+	
+	
+	
+
+</script>
+
+</body>
+
+
+</html>

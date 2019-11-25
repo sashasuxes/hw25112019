@@ -1,0 +1,25 @@
+body {
+	font-size: 22px;
+	}
+.clear {
+	border : 20px solid #f2cade;
+	width : 200px;
+	}
+.cool {
+	color : blue;
+	font: 120pt sans-serif; 
+	writing-mode: vertical-rl
+	}
+	
+.sux {
+	/* background: red; */
+	height: 45px;
+	width: 100px;
+	/* border : 10px solid #000000; */
+	box-sizing: border-box;
+	
+	}
+	
+	
+	
+	
